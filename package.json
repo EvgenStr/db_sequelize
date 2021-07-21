@@ -1,11 +1,12 @@
 {
-  "name": "sequelize",
+  "name": "sequelize-server",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon ./server.js"
+    "start": "npx nodemon ./server.js",
+    "seq": "npx sequelize-cli"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,10 @@
     "nodemon": "^2.0.12"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0"
   }
 }
